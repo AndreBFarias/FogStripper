@@ -16,3 +16,19 @@ jobs:
         for script in src/*.sh; do
           bash -n "$script" || echo "Erro em $script"
         done
+
+  badge:
+    needs: build
+    runs-on: ubuntu-latest
+    if: always()
+    steps:
+    - name: Gera Badge de Build
+      uses: schneegans/dynamic-badges-action@v1.7.0
+      with:
+        auth: ${{ secrets.GITHUB_TOKEN }}
+        gistID: teu-gist-id-aqui
+        filename: build-badge.json
+        label: Build
+        message: ${{ job.status }}
+        color: ${{ job.status == 'success' && 'green' || 'red' }}
+        style: flat
