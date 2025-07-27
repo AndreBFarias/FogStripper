@@ -26,7 +26,7 @@ jobs:
       uses: schneegans/dynamic-badges-action@v1.7.0
       with:
         auth: ${{ secrets.GITHUB_TOKEN }}
-        gistID: teu-gist-id-aqui
+        gistID: 4a560bb2d52fec1e3cc1e8199887c7ad
         filename: build-badge.json
         label: Build
         message: ${{ job.status }}
