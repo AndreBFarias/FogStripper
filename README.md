@@ -1,6 +1,5 @@
-# FogStripper 
-
 <div style="text-align: center;">
+  <h1 style="font-size: 2em;">FogStripper - Desnudador</h1>
   <img src="https://raw.githubusercontent.com/AndreBFarias/FogStripper/main/assets/desnudador.png" width="400" alt="Screenshot do FogStripper">
 </div>
 
