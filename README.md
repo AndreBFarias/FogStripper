@@ -1,6 +1,6 @@
 <div style="text-align: center;">
   <h1 style="font-size: 2em;">FogStripper - Desnudador</h1>
-  <img src="https://raw.githubusercontent.com/AndreBFarias/FogStripper/main/assets/desnudador.png" width="400" alt="Screenshot do FogStripper">
+  <img src="https://raw.githubusercontent.com/AndreBFarias/FogStripper/main/assets/desnudador.png" width="200" alt="Screenshot do FogStripper">
 </div>
 
 Uma aplicação gráfica que desnuda fundos de imagens com um toque neural, baseada no modelo U2Net e acelerada por GPU via CUDA. Open source, desenhada para quem busca eficiência e privacidade em cada camada revelada.
