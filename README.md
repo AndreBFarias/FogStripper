@@ -1,3 +1,7 @@
+
+
+![Screenshot do FogStripper](assets/desnudador.png)
+
 FogStripper - Desnudador é uma aplicação gráfica para remoção de fundos de imagens utilizando modelo neural local, baseada no modelo U2Net e acelerada por GPU via CUDA. Esta ferramenta é open source e projetada para usuários que buscam eficiência e privacidade em processamento de imagens.
 
 
