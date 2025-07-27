@@ -1,3 +1,4 @@
+# Ritual de Magia Negra Digital: ritual.yml - Conjuração de badges que brilham como troféus góticos, testando sintaxe e gerando glória automática.
 name: Ritual de CI
 
 on:
@@ -25,10 +26,12 @@ jobs:
     - name: Gera Badge de Build
       uses: schneegans/dynamic-badges-action@v1.7.0
       with:
-        auth: ${{ secrets.GITHUB_TOKEN }}
+        auth: ${{ secrets.BADGE_TOKEN }}
         gistID: 7697d069a341e2e47ea3b0b86beeb06d
         filename: build-badge.json
         label: Build
         message: ${{ job.status }}
         color: ${{ job.status == 'success' && 'green' || 'red' }}
         style: flat
+
+# "A liberdade é o fogo que consome as correntes do estado." — Ludwig von Mises
