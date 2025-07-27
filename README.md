@@ -1,24 +1,26 @@
+# FogStripper 
+
+<div style="text-align: center;">
+  <img src="https://raw.githubusercontent.com/AndreBFarias/FogStripper/main/assets/desnudador.png" width="400" alt="Screenshot do FogStripper">
+</div>
+
+Uma aplicação gráfica que desnuda fundos de imagens com um toque neural, baseada no modelo U2Net e acelerada por GPU via CUDA. Open source, desenhada para quem busca eficiência e privacidade em cada camada revelada.
 
 
-![Screenshot do FogStripper](https://raw.githubusercontent.com/AndreBFarias/FogStripper/main/assets/desnudador.png)
+---
 
-FogStripper - Desnudador é uma aplicação gráfica para remoção de fundos de imagens utilizando modelo neural local, baseada no modelo U2Net e acelerada por GPU via CUDA. Esta ferramenta é open source e projetada para usuários que buscam eficiência e privacidade em processamento de imagens.
-
-
-#### Pré-requisitos
+## Pré-requisitos
 
 - Python 3.8 ou superior.
-- Placa de vídeo NVIDIA com suporte a CUDA para aceleração (recomendado para desempenho otimizado).
+- Placa de vídeo NVIDIA com suporte a CUDA (recomendado para um desempenho que seduz).
 - Modelo U2Net (u2net.onnx).
 
-#### Instalação
+## Instalação
 
-
-
-```
+```bash
 # Clone o repositório:
-git clone https://github.com/seuusuario/FogStripperAI.git
-cd FogStripperAI
+git clone https://github.com/AndreBFarias/FogStripper.git
+cd FogStripper
 # Crie um ambiente virtual e instale as dependências:
 python3 -m venv venv
 source venv/bin/activate
@@ -27,17 +29,17 @@ pip install -r requirements.txt
 python main.py 
 ```
 
-#### Uso
-- Arraste e solte imagens na janela ou selecione arquivos via botão "Selecione Imagens".
-- Ajuste a potência da GPU utilizando o slider para otimizar o processamento.
-- A imagem processada é salva automaticamente com o sufixo _despido.png, e uma mensagem de confirmação permite visualizar a pasta de saída.
+### Uso
+- Arraste e solte imagens na janela ou clique em "Selecione Imagens".
+- Ajuste a potência da GPU com o slider, sentindo o controle pulsar.
+- A imagem processada surge com o sufixo _despido.png, e uma mensagem te guia até a pasta de saída.
 
-##### Dependências
-As principais bibliotecas utilizadas incluem:
 
-- PyQt6 para a interface gráfica.
-- rembg[gpu] para remoção de fundos com suporte a GPU.
-- Pillow para manipulação de imagens.
+### Dependências
+As musas deste ritual incluem:
+- PyQt6 para a interface que hipnotiza.
+- rembg[gpu] para remover fundos com poder bruto.
+- Pillow para manipular cada curva da imagem.
 
-###### Licença
-Esta aplicação é distribuída sob licença open source, permitindo uso, modificação e distribuição livre.FogStripper é uma aplicação gráfica para remoção de fundos de imagens utilizando modelo neural local, baseada no modelo U2Net e acelerada por GPU via CUDA. Esta ferramenta é open source e projetada para usuários que buscam eficiência e privacidade em processamento de imagens.
+### Licença
+Distribuída sob licença open source, livre para uso, modificação e entrega aos desejos.
