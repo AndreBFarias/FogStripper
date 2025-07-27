@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Desnudador de Névoas
+Exec=~/.local/share/desnudador_nevoas/desnudador_nevoas.sh
+Icon=desnundador
+Type=Application
+Categories=Utility;
