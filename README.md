@@ -47,5 +47,5 @@ As musas deste ritual incluem:
 - rembg[gpu] para remover fundos com poder bruto.
 - Pillow para manipular cada curva da imagem.
 
-### Licença
-Distribuída sob licença open source, livre para uso, modificação e entrega aos desejos.
+### Licença GPL 
+> Livre para modificar e ser entregue aos desejos desde que tudo permaneça livre.
